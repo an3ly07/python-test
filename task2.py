@@ -1,10 +1,8 @@
-salaries = input().split()
+sal1 = int(input())
+sal2 = int(input())
+sal3 = int(input())
 
-a = int(salaries[0])
-b = int(salaries[1])
-c = int(salaries[2])
-
-maximum = max(a, b, c)
-minimum = min(a, b, c)
+maximum = max(sal1, sal2, sal3)
+minimum = min(sal1, sal2, sal3)
 
 print(maximum - minimum)
